@@ -8,10 +8,20 @@ body{
   font-family: 'Roboto', sans-serif;
   color: white;
 }
+.gif{
+  display: flex;
+  justify-content: center;
+}
+#gif{
+  width: 25vh;
+  height: 25vh;
+  border-radius: 100px;
+  margin-top: 8%;
+}
 
 h1{
   text-align: center;
-  margin-top: 35vh;
+  margin-top: 6vh;
 }
 
 #btn {
