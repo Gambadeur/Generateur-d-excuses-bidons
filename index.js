@@ -1,4 +1,6 @@
 
+// fonction aléatoire de phrases avec 3 variables
+
 function Excuse() {
 
 var nom = ["Bernard ", "Mon poisson ", "Ma femme ", "Jocelyne ", "Mon chat ", "Ma voiture ", "Mon hélicoptère ", "Mon voisin "];
@@ -15,3 +17,9 @@ var objet =  materiel[Math.round(Math.random() * (materiel.length - 1))];
 document.querySelector("#excuses").innerHTML = "<div> " + personne + action + objet + "</div>";
 
 }
+
+// bottom circle:
+
+// var canvas = document.getElementById("canvas");
+//
+// canvas.ellipse(100, 100, 50, 75);
