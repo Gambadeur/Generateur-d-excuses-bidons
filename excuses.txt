@@ -1,0 +1,12 @@
+Vous avez oublié de faire quelque chose :
+ -
+Vous avez du retard
+ - J'ai raté mon train
+ - J'ai raté mon bus
+ - J'ai raté mon tram
+ - J'ai raté mon RER
+ - Je prends le RER A...
+ - Je prends le RER B...
+ - 
+Vous êtes injoignable
+Vous découchez

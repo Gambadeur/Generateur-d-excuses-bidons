@@ -19,3 +19,15 @@ Mathieu => Canvas: réalisation d'un pinnochio avec le nez qui s'allonge à chaq
 
 
 Technos : Javascript / CSS / HTML / CANVAS
+
+
+-----------
+Suggestions :
+
+- Possibilité de demander à l'utilisateur des indications pour mieux cibler la réponse :
+   - temps (météo)
+   - heure
+   - mois de l'année
+   - jour de la semaine
+   - sexe
+   - etc...
