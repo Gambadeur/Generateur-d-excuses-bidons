@@ -48,13 +48,13 @@ $myCanvas.drawArc({
   radius: 5
 }).drawArc({
   // draw the nose
+  fillStyle: '#333',
   strokeStyle: '#333',
   strokeWidth: 4,
   ccw: true,
+  strokeWidth: 3,
   x: 300, y: 100,
-  radius: 30,
-  start: 0,
-  end: 10
+  radius: 20
 }).drawArc({
   // draw the smile
   strokeStyle: '#333',
