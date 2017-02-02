@@ -64,3 +64,7 @@ $myCanvas.drawArc({
   start: 90,
   end: 280
 });
+
+$("#btn").click(function(){
+
+});

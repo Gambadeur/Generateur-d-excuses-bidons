@@ -8,6 +8,21 @@ body{
   font-family: 'Roboto', sans-serif;
   color: white;
 }
+
+.container{
+  display: flex;
+}
+
+.containerLeft {
+  width: 50%;
+  border: black solid 1em;
+}
+
+.containerRight {
+  width: 50%;
+  border: black solid 1em;
+}
+
 .gif{
   display: flex;
   justify-content: center;
