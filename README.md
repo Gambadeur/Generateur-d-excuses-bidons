@@ -5,7 +5,7 @@ Mission :
 Développer un programme d'excuses aléatoire adapté à chaque situation.
 L'utilisateur peut choisir une situation dans laquelle il doit trouver une excuse. Exemples: retard au travail, retard à la maison...
 
-
+Work in progress : https://gambadeur.github.io/Generateur-d-excuses-bidons/
 
 Répartition des tâches :
 
