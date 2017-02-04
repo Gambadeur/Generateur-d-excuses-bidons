@@ -1,6 +1,7 @@
 
 // fonction aléatoire de phrases avec 3 variables
 
+
 function Excuse() {
 
 var nom = ["Bernard ", "Mon poisson ", "Ma femme ", "Mon meilleur ami","Jocelyne ", "Mon chat ", "Ma voiture ", "Mon hélicoptère ", "Mon voisin "];
@@ -18,6 +19,14 @@ document.querySelector("#excuses").innerHTML = "<div> " + personne + action + ob
 
 }
 
+
+// Récupérer l'event click sur le bouton facon Vanilla Js
+// btn.addEventListener("click", function(){
+// alert("bibou");
+// });
+
+
+// show()
 // bottom circle:
 
 // var canvas = document.getElementById("canvas");
@@ -26,6 +35,14 @@ document.querySelector("#excuses").innerHTML = "<div> " + personne + action + ob
 
 // Store the canvas object into a variable
 var $myCanvas = $('#myCanvas');
+
+var test = $myCanvas.children(3);
+console.log(test);
+var test2 = test.children(4);
+console.log(test2);
+test2 = 40;
+
+var value = 10;
 
 $myCanvas.drawArc({
   // draw the face
@@ -52,9 +69,8 @@ $myCanvas.drawArc({
   strokeStyle: '#333',
   strokeWidth: 4,
   ccw: true,
-  strokeWidth: 3,
   x: 300, y: 100,
-  radius: 20
+  radius: value
 }).drawArc({
   // draw the smile
   strokeStyle: '#333',
@@ -65,6 +81,11 @@ $myCanvas.drawArc({
   end: 280
 });
 
-$("#btn").click(function(){
+value = 40;
 
+// Récupérer l'event click sur le bouton facon Jquery
+
+$("#btn").click(function(){
+    value = 20;
+    console.log("Hello");
 });
