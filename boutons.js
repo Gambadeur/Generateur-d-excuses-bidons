@@ -1,8 +1,8 @@
-var j = 0,
-    oubli = document.querySelector('#oubli'),
-    retard = document.querySelector('#retard'),
-    injoignable = document.querySelector('#injoignable'),
-    tard = document.querySelector('#tard');
+var j = 0;
+    // oubli = document.querySelector('#oubli'),
+    // retard = document.querySelector('#retard'),
+    // injoignable = document.querySelector('#injoignable'),
+    // tard = document.querySelector('#tard');
 
 function conditionSelect(){
     if(j === 1){
