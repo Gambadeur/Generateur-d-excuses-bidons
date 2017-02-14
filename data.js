@@ -49,7 +49,7 @@ var vousAvezDuRetard = [
   "Il y a eu un accident sur la route"
 ]
 
-var vousEtezInjougnable = [
+var vousEtezInjoignable = [
   "J'étais au cinéma",
   "Je n'avais pas apporté mon téléphone avec moi",
   "J'avais oublié mon téléphoné",
