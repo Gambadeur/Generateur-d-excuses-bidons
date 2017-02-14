@@ -1,3 +1,20 @@
+// Récupérer l'event click sur le bouton facon Vanilla Js
+btn.addEventListener("click", function(){
+  NoseAnim()
+  if(j === 0){
+    Excuse();
+  } else if (j === 1) {
+    oubliList();
+  } else if (j === 2) {
+    retardList();
+  } else if (j === 3) {
+    injoingableList();
+  } else if (j === 4) {
+    plusTardList();
+  }
+});
+
+
 var j = 0;
     // oubli = document.querySelector('#oubli'),
     // retard = document.querySelector('#retard'),
@@ -6,15 +23,15 @@ var j = 0;
 
 function conditionSelect(){
     if(j === 1){
-      alert("11111111 !!!");
+    ;
     } else if (j === 2) {
-        alert("22222 !!");
+        ;
     } else if (j === 3) {
-        alert("33333");
+        ;
     } else if (j === 4) {
-        alert("44444");
+        ;
     } else{
-        alert("rien");
+      ;
     }
     console.log("j : " + j);
     }
