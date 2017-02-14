@@ -1,6 +1,8 @@
 # Generateur-d-excuses-bidons
 Petit programme en JS qui génère des excuses aléatoirement !
 
+https://gambadeur.github.io/Generateur-d-excuses-bidons/
+
 Mission :
 Développer un programme d'excuses aléatoire adapté à chaque situation.
 L'utilisateur peut choisir une situation dans laquelle il doit trouver une excuse. Exemples: retard au travail, retard à la maison...
