@@ -58,5 +58,9 @@ function NoseAnim(){
   });
   if (value === 100){
     alert("Vous avez atteint votre limite d'excuses");
+    $myCanvas.clearDraw();
+    // value = 0;
+    // NoseAnim();
+    value = 10;
   };
 }
