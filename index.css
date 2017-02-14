@@ -9,6 +9,12 @@ body{
   color: white;
 }
 
+button{
+  border: none;
+  background: #E8AA62;
+  cursor: pointer;
+}
+
 .container{
   display: flex;
 }
