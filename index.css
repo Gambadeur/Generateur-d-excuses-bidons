@@ -1,12 +1,12 @@
 body{
   margin: 0 auto;
-  background-color: #1980CC;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: black;
 }
 
 button{
@@ -17,16 +17,15 @@ button{
 
 .container{
   display: flex;
+  height: 100vh;
 }
 
 .containerLeft {
-  width: 50%;
-  border: black solid 1em;
+  width: 25%;
 }
 
 .containerRight {
-  width: 50%;
-  border: black solid 1em;
+  width: 75%;
 }
 
 .gif{
@@ -63,6 +62,7 @@ h1{
   margin-top: 80px;
   margin: 0 auto;
   cursor: pointer;
+  justify-content: center;
 }
 
 #btn:hover {
@@ -79,9 +79,20 @@ h1{
   font-size: 20px;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-canvas {
-  margin: auto;
-  display: block;
+#myCanvas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#divCanvas {
+  display: flex;
+  justify-content: center;
+}
+
+#Divbutton{
+  display: flex;
+  justify-content: center;
 }

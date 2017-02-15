@@ -21,41 +21,28 @@ var j = 0;
     // injoignable = document.querySelector('#injoignable'),
     // tard = document.querySelector('#tard');
 
-function conditionSelect(){
-    if(j === 1){
-    ;
-    } else if (j === 2) {
-        ;
-    } else if (j === 3) {
-        ;
-    } else if (j === 4) {
-        ;
-    } else{
-      ;
-    }
-    console.log("j : " + j);
-    }
+
+bidon.addEventListener('click', function(){
+      //alert("ok");
+      j = 0;
+    });
 
 oubli.addEventListener('click', function(){
   //alert("ok");
   j = 1;
-  conditionSelect();
 });
 
 retard.addEventListener('click', function(){
   //alert("ok");
   j = 2;
-  conditionSelect();
 });
 
 injoignable.addEventListener('click', function(){
   //alert("ok");
   j = 3;
-  conditionSelect();
 });
 
 tard.addEventListener('click', function(){
   //alert("ok");
   j = 4;
-  conditionSelect();
 });
